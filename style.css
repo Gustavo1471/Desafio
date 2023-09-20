@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    font-family: 'Inter';
+}
+
+#menuSuperior{
+    background-color: #303030;
+    background-size: 100%;
+}
+
+#tituloSuperior{
+    padding: 9% 0% 0% 3%;
+    color: #FFF;
+    font-size: 300%;
+    font-weight: 500;
+}
+
+#textoSuperior{
+    padding: 1% 0% 7% 3% ;
+    color: #FFF;
+    font-size: 106%;
+    font-weight: 400;
+}
+
+#menuInformacional{
+    display: grid;
+    background-color: #F9F9F9;
+    grid-auto-flow: column;
+    columns:auto;
+    justify-content: space-around;
+}
+
+#dados{
+    padding: 10% 0% 10% 0%;
+}
+
+#titleDados{
+    font-size: 230%;
+    font-weight: 600;
+}
+
+#textDados{
+    font-size: 110%;
+    font-weight: 400;
+}
+
+#secaoImagem{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#textSection{
+    padding: 40% 0% 0% 10% ;
+}
+
+#titleImg{
+    font-size: 190%;
+    font-weight: 600;
+    padding-bottom: 5%;
+}
+
+#textImg{
+    font-size: 110%;
+    font-weight: 300;
+}
+
+#Imagem{
+    padding: 10% 0% 10% 10%;
+    width: 200;
+}
+
+#secaoForm{
+    text-align: center;
+    background-color: #303030;
+}
+
+#titleForm{
+    padding: 5% 0% 0% 0%;
+    color: #FFF;
+    font-size: 200%;
+    font-weight: 500;
+}
+
+#caixa{
+    margin: 3% 0% 0% 0%;
+    width: 35%;
+    height: 45px;
+    border: 0px;
+    border-radius: 8px;
+    background-color: #FFF;
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 100%;
+    padding: 0% 0% 0% 1%;
+}
+
+#buttonForm{
+    margin-top: 3%;
+    margin-bottom: 5%;
+    width: 20%;
+    height: 45px;
+    border: 0px;
+    border-radius: 8px;
+    font-family: Raleway;
+    background-color: #C07212;
+    color: #FFF;
+    font-size: 140%;
+    font-weight: 700;
+    font-style: normal;
+    cursor: pointer;
+}
+
+#buttonForm:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
